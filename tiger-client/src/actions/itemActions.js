@@ -21,10 +21,6 @@ export const addItem = (item) => dispatch => {
         type: ADD_ITEM,
         payload: res.data
       }))
-//  return {
-//    type: ADD_ITEM,
-//    payload: item
-//  }
 }
 
 export const deleteItem = (id) => dispatch => {
