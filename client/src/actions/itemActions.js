@@ -36,10 +36,6 @@ export const deleteItem = (id) => dispatch => {
     })
   )
 }
-//  return {
-//    type: DELETE_ITEM,
-//    payload: id
-//  }
 
 export const setItemsLoading = () => {
   return {
