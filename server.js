@@ -36,7 +36,7 @@ mongoose.Promise = global.Promise;
 app.use('/api/items', items)
 
 if(process.env.NODE_ENV === 'production') {
-  app.use(express.static('client/build'))
+  app.use(express.static('tiger-client/build'))
 
   app.get('*', (req, res) => {
     res.sendFile(path.resolve(__dirname, 'tiger-client', 'build', 'index.html'))

@@ -11,7 +11,7 @@
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix tiger-client && npm run build --prefix tiger-client"
   },
   "keywords": [],
-  "author": "Fabrice",
+  "author": "Fabrice Esope",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
